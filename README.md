@@ -2,6 +2,14 @@
 ### node version
     v20.19.5
 
+### 2026.04.17 fixed missing problem
+/cases/.jsx
+line 54
+
+/about
+phone version 
+company name & address
+
 ### SEO meta
 Added on all page
 

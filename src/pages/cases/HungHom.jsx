@@ -51,7 +51,7 @@ export const HungHom = () => {
     }
 
     // 🌟 关键修复：先判断fileName存在，再执行includes
-    let title = '中環'; 
+    let title = '紅磡'; 
     let desc = '';
     if (fileName) { // 先确认fileName不是undefined
       if (fileName.includes('bedroom')) desc = '臥室';

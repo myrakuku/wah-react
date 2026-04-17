@@ -82,14 +82,22 @@ export const About = () => {
               <div className="p-8">
                 <h2 className="text-2xl font-semibold mb-6 text-gray-800">聯絡我們 | WAH! Space Studio</h2>
                 <div className="space-y-4 text-gray-700">
-                  <p className="flex items-center gap-2">
-                    <span className="font-medium">公司名稱：</span>
-                    <span>WAH NGAI DECORATION LIMITED</span>
+                  <div className='flex flex-wrap'>
+                    <p className="flex items-center gap-2 font-medium">
+                    公司名稱：
                   </p>
                   <p className="flex items-center gap-2">
-                    <span className="font-medium">地址：</span>
+                    華藝裝飾有限公司
+                  </p>
+                  </div>
+                  <div className='flex flex-wrap'>
+                  <p className="flex items-center gap-2 font-medium">
+                    地址：
+                  </p>
+                  <p className="flex items-center gap-2">
                     <span>牛頭角觀塘道342號鴻源工業大廈7樓A3室</span>
                   </p>
+                  </div>
                   <p className="flex items-center gap-2">
                     <span className="font-medium">聯繫電話：</span>
                     <span className="text-blue-600 font-medium">9603 5388</span>
@@ -104,7 +112,7 @@ export const About = () => {
                   className="inline-flex items-center gap-2 mt-8 px-6 py-3 bg-green-500 text-white rounded-full hover:bg-green-600 transition-colors"
                 >
                   <FaWhatsapp className="text-xl" />
-                  <span className="font-medium">WhatsApp 我們：9603 5388</span>
+                  <span className="font-medium">WhatsApp 聯絡我們</span>
                 </a>
               </div>
 
